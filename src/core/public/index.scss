@@ -5,3 +5,17 @@
 
 // Global styles need to be migrated
 @import '../../legacy/ui/public/styles/_legacy/_index';
+
+@import './theme';
+
+// with a more detailed requirement and goal understanding this should have been a nicer solution
+// but leaving this code all together here for clarity purposes
+.euiPage{
+  background-color: $mainBgColor !important;
+}
+.euiText {
+  color: $textColor !important;
+}
+a {
+  color: $linkColor !important;
+}
